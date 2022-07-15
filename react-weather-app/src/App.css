@@ -1,0 +1,54 @@
+.App {
+  /* text-align: center; */
+}
+#header {
+  background-color: #82c6ea;
+  
+  width: 50%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 8px;
+}
+#city{
+  width: 25%;
+  padding: 3px;
+}
+#main{
+
+  
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 4px;
+
+}
+.grid-container{
+  display: grid; 
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+}
+.grid-item{
+  grid-row: 1;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+}
+.first-card{
+  border: 1px solid #CDCDCD;
+}
+.dayInfo{
+  color: #CDCDCD;
+}
+.weatherIcon{
+  width: 60%;
+  height: auto;
+ 
+}
+.minDegree{
+  color: #B5B5B5;
+}
